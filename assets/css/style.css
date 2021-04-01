@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+/*navigasi*/
+
+.nav-container {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: Perpetua;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #3E3F43;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+    margin-top: 20px;
+}
+
+.nav-items li a {
+    font-family: "Nunito" sans-serif ;
+    font-size: 16px;
+    color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
+}
+
+.col-md-6 li a {
+    font-size: 16px;
+    color: #3E3F43;
+    text-decoration: none;
+
+    background: #F9BDBD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 8px 30px;
+    margin-left: 70px;
+}
+
+/* header */
+
+.header-container {
+    background: #FFFFFF url('http://damitch.id/PROJECT/ci/assets/images/Group23.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+
+}
+
+.header-containerLogin {
+    background: #FFFFFF url('http://damitch.id/PROJECT/ci/assets/images/Rectanglesetengah.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    color: #313235;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    margin-bottom: 24px;
+}
+
+.hero-content a {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    background: #DAA520;
+    border-radius: 4px;
+    padding: 12px 48px;
+    display: inline-block;
+    transition: 300ms;
+}
+ a:hover{
+    transform: translateY(-5px);
+}
+
+.isinya {
+    font-family: "Nunito" sans-serif ;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    width: 400px;
+    height: 400px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-150%, -50%);
+
+    margin-top: 50px;
+}
+
+.elementnya{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 700px;
+    height: 380px;
+
+    transform: translate(-25%, -40%);
+}
+
+.daftar{
+    font-size: 12px;
+}
+
+.form-group b {
+    font-family: Perpetua;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #3E3F43;
+
+    margin-left: 25px;
+}
+
+.elementnyaregist{
+    position: absolute;
+    top:35%;
+    left: 50%;
+
+    width: 700px;
+    height: 380px;
+
+    transform: translate(-25%, -40%);
+}
+
+.flashdata b{
+    font-family: Perpetua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-170%, -600%);
+
+    font-size: 16px;
+    color: #3E3F43;
+    text-decoration: none;
+
+    background: #F9BDBD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 5px 30px;
+}
